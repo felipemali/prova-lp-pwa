@@ -1,11 +1,8 @@
 import { useState } from "react";
 import { heroes } from "../helpers/heroes";
+import { Hero } from "../models/Hero";
 
-export type Hero = {
-  name: string;
-  description: string;
-  image: string;
-};
+
 
 export const useHero = () => {
   const [hero, setHero] = useState<Hero>();
