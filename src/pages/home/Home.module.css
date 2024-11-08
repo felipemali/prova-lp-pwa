@@ -1,0 +1,22 @@
+
+.name{
+    text-align: center;
+}
+.image{
+    width: 300px;
+    height: 450px;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1), 0 4px 8px rgba(0,0,0,0.2);
+}
+.descriptionContainer{
+    width: 80%;
+    margin: auto;
+}
+.description{
+    text-align: justify;
+    font-size: 20px;
+    color: #444343;
+    
+}
